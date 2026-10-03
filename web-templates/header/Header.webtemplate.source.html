@@ -1,5 +1,6 @@
 {% assign defaultlang = settings['LanguageLocale/Code'] | default: 'en-us' %}
 {% assign homeurl = website.adx_partialurl %}
+<link rel="stylesheet" href="{{ 'asl-custom.css' | webfile_url }}">
 <div class='navbar navbar-inverse navbar-static-top' role='banner'>
   <div class='skip-to-content'>
     <a href='#mainContent'>{{ resx.Skip_To_Content | default: 'Skip to main content' }}</a>

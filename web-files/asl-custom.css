@@ -1,0 +1,161 @@
+/* =========================================================
+   ASL LOGÍSTICA CENTRAL
+   ESTILOS GLOBALES
+   ========================================================= */
+
+:root {
+    --asl-red: #b5121b;
+    --asl-red-dark: #8f0d14;
+    --asl-yellow: #ffb800;
+    --asl-yellow-light: #ffc52e;
+
+    --asl-white: #ffffff;
+    --asl-gray-50: #f5f6f7;
+    --asl-gray-100: #e9ebee;
+    --asl-gray-800: #272c33;
+    --asl-gray-900: #1d2228;
+}
+
+
+/* =========================================================
+   HEADER
+   ========================================================= */
+
+.navbar-static-top.navbar-inverse {
+    background: linear-gradient(
+        90deg,
+        var(--asl-red-dark),
+        var(--asl-red)
+    );
+
+    border: none;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .18);
+}
+
+
+/* CONTENEDOR */
+
+.navbar-static-top.navbar-inverse > .container {
+    min-height: 76px;
+}
+
+
+/* MARCA */
+
+.navbar-static-top.navbar-inverse .navbar-brand {
+    color: var(--asl-white);
+}
+
+
+/* MENÚ */
+
+.navbar-inverse .navbar-nav > li > a {
+    color: var(--asl-white);
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+
+    transition:
+        background-color .2s ease,
+        color .2s ease;
+}
+
+
+/* HOVER */
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+    background-color: var(--asl-yellow);
+    color: var(--asl-gray-900);
+}
+
+
+/* ITEM ACTIVO / ABIERTO */
+
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: var(--asl-yellow);
+    color: var(--asl-gray-900);
+}
+
+
+/* DROPDOWN */
+
+.navbar-inverse .navbar-nav .open .dropdown-menu {
+    background-color: var(--asl-white);
+    border: none;
+
+    box-shadow:
+        0 10px 30px rgba(0, 0, 0, .15);
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+    color: var(--asl-gray-800);
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
+    background-color: var(--asl-yellow);
+    color: var(--asl-gray-900);
+}
+
+
+/* BOTÓN MOBILE */
+
+.navbar-inverse .navbar-toggle {
+    background-color: var(--asl-yellow);
+    border-color: var(--asl-yellow);
+}
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+    background-color: var(--asl-yellow-light);
+    border-color: var(--asl-yellow-light);
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: var(--asl-gray-900);
+}
+
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+
+footer .footer-bottom {
+    background-color: var(--asl-gray-900);
+    color: var(--asl-white);
+}
+
+footer .footer-bottom a {
+    color: var(--asl-yellow);
+}
+
+footer .footer-bottom a:hover,
+footer .footer-bottom a:focus {
+    color: var(--asl-yellow-light);
+}
+
+
+/* =========================================================
+   BOTONES GLOBALES
+   ========================================================= */
+
+.btn-primary,
+.button1 {
+    background-color: var(--asl-yellow);
+    border-color: var(--asl-yellow);
+    color: var(--asl-gray-900);
+
+    font-weight: 700;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.button1:hover,
+.button1:focus {
+    background-color: var(--asl-yellow-light);
+    border-color: var(--asl-yellow-light);
+    color: var(--asl-gray-900);
+}
