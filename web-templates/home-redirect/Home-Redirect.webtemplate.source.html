@@ -1,0 +1,10 @@
+<!-- Home Redirect -->
+<div id='mainContent' class='wrapper-body' role='main'>
+  {% include 'Page Copy' %}
+</div>
+
+{% if user %}
+<script>
+  window.location.href = '/registros'
+</script>
+{% endif %}

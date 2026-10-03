@@ -1,0 +1,14 @@
+- adx_managecontentsnippets: false
+  adx_managesitemarkers: false
+  adx_manageweblinksets: false
+  adx_name: Permiso de vista previa para la plantilla en blanco
+  adx_previewunpublishedentities: true
+  adx_websiteaccessid: 829e706c-56cd-4a00-b887-9f50ab1c3dc2
+- adx_managecontentsnippets: true
+  adx_managesitemarkers: true
+  adx_manageweblinksets: true
+  adx_name: Permisos administrativos para la plantilla en blanco
+  adx_previewunpublishedentities: true
+  adx_websiteaccess_webrole:
+  - d61746cb-27a1-4a17-a8d2-485addd80d58
+  adx_websiteaccessid: 967e4443-55c5-4df3-82c1-845fb5e57ee5

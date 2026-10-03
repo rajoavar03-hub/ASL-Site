@@ -1,0 +1,16 @@
+adx_accountrelationship: 
+adx_append: false
+adx_appendto: false
+adx_contactrelationship: 
+adx_create: true
+adx_delete: false
+adx_entitylogicalname: cr904_cumplimientodecargue
+adx_entityname: Cumplimientos de Cargue activo
+adx_entitypermission_webrole:
+- a9ea135a-f12a-4698-b694-27610b4a5444
+adx_entitypermissionid: 2379d867-3fbd-4917-9af9-774c4ecacc68
+adx_parententitypermission: 
+adx_parentrelationship: 
+adx_read: true
+adx_scope: 756150000
+adx_write: true

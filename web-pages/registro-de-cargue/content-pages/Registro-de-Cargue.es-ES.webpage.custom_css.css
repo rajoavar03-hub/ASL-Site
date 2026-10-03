@@ -1,0 +1,63 @@
+/* =========================================================
+   ASL - PROGRAMA DE CARGUE
+   ========================================================= */
+
+#asl-programa-container {
+    margin: 20px 0 25px;
+}
+
+.asl-programa-label {
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #f28c28;
+}
+
+.asl-programa-barra {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    min-height: 48px;
+    padding: 0 16px;
+
+    background: #fff7ef;
+    border: 1px solid #f28c28;
+    border-left: 5px solid #f28c28;
+    border-radius: 8px;
+
+    color: #17212b;
+    font-size: 15px;
+    font-weight: 700;
+
+    box-sizing: border-box;
+}
+
+.asl-programa-icon {
+    font-size: 20px;
+}
+
+#asl-programa-nombre {
+    letter-spacing: .3px;
+}
+
+#asl-cierre-container {
+    margin-top: 25px;
+    text-align: center;
+}
+
+#asl-btn-cerrar-cargue {
+    border: none;
+    border-radius: 10px;
+    padding: 13px 28px;
+    background: #17212b;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .25s ease;
+}
+
+#asl-btn-cerrar-cargue:hover {
+    transform: translateY(-2px);
+}

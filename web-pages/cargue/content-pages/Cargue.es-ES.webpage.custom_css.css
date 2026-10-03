@@ -1,0 +1,206 @@
+/* ========================================
+   ASL LOGÍSTICA CENTRAL
+   MÓDULO CARGUE
+======================================== */
+
+.cargue-page {
+  min-height: calc(100vh - 100px);
+  padding: 70px 25px;
+  background: #f5f7fa;
+}
+
+.cargue-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+
+.cargue-header {
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+.cargue-badge {
+  display: inline-block;
+  padding: 7px 14px;
+  margin-bottom: 15px;
+
+  border-radius: 30px;
+
+  background: #fff3e8;
+  color: #e86f00;
+
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.cargue-header h1 {
+  margin: 0 0 12px;
+
+  color: #17212b;
+
+  font-size: 42px;
+  font-weight: 800;
+}
+
+.cargue-header p {
+  max-width: 650px;
+  margin: 0 auto;
+
+  color: #667085;
+
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* GRID */
+
+.cargue-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+/* CARD */
+
+.cargue-card {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+
+  min-height: 250px;
+
+  padding: 30px;
+
+  background: #ffffff;
+
+  border: 1px solid #e7eaee;
+
+  border-radius: 18px;
+
+  text-decoration: none;
+
+  box-shadow: 0 8px 25px rgba(16, 24, 40, 0.06);
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    border-color 0.25s ease;
+}
+
+.cargue-card:hover {
+  transform: translateY(-7px);
+
+  border-color: #f28c28;
+
+  box-shadow: 0 18px 40px rgba(16, 24, 40, 0.12);
+
+  text-decoration: none;
+}
+
+/* ICON */
+
+.cargue-icon {
+  width: 58px;
+  height: 58px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 25px;
+
+  border-radius: 15px;
+
+  font-size: 28px;
+}
+
+.registro-icon {
+  background: #fff1e6;
+}
+
+.programa-icon {
+  background: #eef4ff;
+}
+
+.cumplimiento-icon {
+  background: #edf9f1;
+}
+
+/* CONTENT */
+
+.cargue-content h2 {
+  margin: 0 0 10px;
+
+  color: #17212b;
+
+  font-size: 22px;
+  font-weight: 750;
+}
+
+.cargue-content p {
+  margin: 0;
+
+  color: #667085;
+
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* ARROW */
+
+.cargue-arrow {
+  position: absolute;
+
+  right: 28px;
+  bottom: 25px;
+
+  color: #e86f00;
+
+  font-size: 24px;
+  font-weight: 600;
+
+  transition: transform 0.25s ease;
+}
+
+.cargue-card:hover .cargue-arrow {
+  transform: translateX(6px);
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 900px) {
+
+  .cargue-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .cargue-card {
+    min-height: 210px;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .cargue-page {
+    padding: 45px 18px;
+  }
+
+  .cargue-header {
+    margin-bottom: 35px;
+  }
+
+  .cargue-header h1 {
+    font-size: 32px;
+  }
+
+  .cargue-card {
+    padding: 25px;
+  }
+
+}
